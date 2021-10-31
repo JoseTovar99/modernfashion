@@ -217,15 +217,17 @@ input {
   transition: all .5s ease;
 }
 
-/*SQUARES CATEGORIES*/
+/*NEWSLETTER*/
 .newsletter {
     height: 60vh;
-    background-color: #fcf5f5;
+    background-color: #cecece;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     line-height: 50px;
+    margin-top: 3px;
+
 }
 .newsTitle {
     font-size: 50px;
@@ -260,4 +262,77 @@ input {
 .btnEmail:hover {
     background-color: rgb(77, 77, 77);
     color: rgb(199, 199, 199);
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    margin-top: 3px;
+}
+.footerLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.logoFooter {
+    font-weight: bolder;
+    margin-top: -5px;
+    font-size: 20px;
+}
+.footerDesc {
+    margin: 20px 0px;
+}
+.socialContainer {
+    display: flex;
+  
+}
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.socialIcon:hover {
+    cursor: pointer;
+}
+.footerCenter {
+    flex: 1;
+    padding: 20px;
+}
+.centerTitle {
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.listItem {
+    width: 50%; /*Double Column on Links*/
+    margin-bottom: 13px; 
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+.footerRight {
+    flex: 1;
+    padding: 20px;
+}
+.rightTitle {
+    font-weight: bolder;
+}
+.contactItem {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
 }

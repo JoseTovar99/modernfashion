@@ -394,12 +394,29 @@ input {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    gap: 150px;
 }
 
 .imagesList {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.image1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.image1 .pricing {
+    color: red;
+}
+.pricingFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -15px;
 }
 
 .imagesList img {
@@ -408,3 +425,16 @@ input {
     height: 300px;
     object-fit: cover;
 }
+.imagesList2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagesList2 img {
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+

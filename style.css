@@ -138,7 +138,7 @@ input {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #d6d6d6;
+    background-color: #e6cab4;
 }
 .imgContainer {
     height: 90%;
@@ -222,7 +222,7 @@ input {
 /*NEWSLETTER*/
 .newsletter {
     height: 60vh;
-    background-color: #cecece;
+    background-color: #c0aa9a;
     display: flex;
     align-items: center;
     justify-content: center;

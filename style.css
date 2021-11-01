@@ -161,7 +161,6 @@ input {
 .btnShop {
     padding: 10px;
     border: 2px solid rgb(7, 7, 7);
-    border-radius: 5px;
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
@@ -204,7 +203,6 @@ input {
 }
 .btnCat {
     border: none;
-    border-radius: 5px;
     font-size: 20px;
     padding: 10px;
     background-color: white;
@@ -322,6 +320,8 @@ input {
     margin-bottom: 13px; 
     padding-bottom: 10px;
     margin-top: -10px;
+    cursor: pointer;
+
 }
 .footerRight {
     flex: 1;
@@ -335,4 +335,5 @@ input {
     margin-bottom: 30px;
     display: flex;
     align-items: center;
+    gap: 15px;
 }

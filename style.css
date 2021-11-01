@@ -390,7 +390,9 @@ input {
 
 
 .productSection {
-    background-color: #e9f5f5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
 }
 

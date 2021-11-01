@@ -347,6 +347,8 @@ input {
 
 .productListTitle {
     margin: 20px;
+    font-weight: bolder;
+    font-size: 30px;
 }
 .filterContainer {
     display: flex;

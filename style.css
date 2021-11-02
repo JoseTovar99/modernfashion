@@ -450,3 +450,84 @@ input {
     color: rgb(145, 145, 145);
 }
 
+/*SINGLE.HTML*/
+
+.singleWrapper {
+    padding: 50px;
+  display: flex;
+}
+.singleImgContainer {
+    flex: 1;
+}
+.singleImgContainer img {
+    width: 100%;
+    height: 97vh;
+    object-fit: cover;
+}
+.singleInfoContainer {
+    flex: 1;
+    padding: 0px 50px;
+}
+.singleTitle {
+    font-size: 40px;
+    font-weight: 200;
+}
+.singleDesc {
+  margin: 20px 0px;
+
+}
+.singlePrice {
+    font-weight: 100;
+  font-size: 40px;
+}
+.singleFilterContainer {
+    width: 50%;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.singleFilter {
+    display: flex;
+    align-items: center;
+}
+.singleFilterTitle {
+    font-size: 20px;
+  font-weight: 200;
+}
+.darkColor {
+    font-weight: 600;
+}
+.hoverSize {
+    cursor: pointer;
+}
+.singleAdd {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.singleAmount {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.amount {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
+.btnCart {
+    padding: 10px;
+  border: 3px solid teal;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+}

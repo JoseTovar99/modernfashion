@@ -168,11 +168,12 @@ input {
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  transition: 0.5s;
+
 }
 .btnShop:hover {
     color: white;
     background-color: black;
-    transition: 0.5s ease;
 }
 
 /*SQUARES CATEGORIES*/
@@ -212,11 +213,12 @@ input {
     background-color: white;
     cursor: pointer;
     font-weight: 600;
+    transition: 0.5s;
+
 }
 .btnCat:hover {
     background-color: rgb(73, 73, 73);
     color: white;
-  transition: all .5s ease;
 }
 
 /*NEWSLETTER*/
@@ -260,6 +262,8 @@ input {
     color: white;
     cursor: pointer;
     font-size: 25px;
+  transition: 0.5s;
+
 }
 .btnEmail:hover {
     background-color: rgb(77, 77, 77);
@@ -408,6 +412,9 @@ input {
     align-items: center;
     font-size: 10px;
 }
+.image1 h1 {
+    font-weight: lighter;
+}
 .image1 img:hover {
     cursor: pointer;
     opacity: 80%;
@@ -506,7 +513,12 @@ input {
 }
 .hoverSize {
     cursor: pointer;
+    border: 1px solid black;
+    padding: 7px;
+    margin-left: 10px;
+    font-size: 15px;
 }
+
 .singleAdd {
     width: 50%;
     display: flex;
@@ -532,14 +544,15 @@ input {
 .btnCart {
     font-size: 20px;
   padding: 10px;
-  border: none;
+  border: 1px solid rgb(15, 15, 15);
   background-color: white;
   cursor: pointer;
   font-weight: 500;
+  transition: 0.5s;
+
 }
 .btnCart:hover {
     background-color: rgb(73, 73, 73);
     color: white;
     border: 3px solid rgb(15, 15, 15);
-    transition: all .5s ease;
 }

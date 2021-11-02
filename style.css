@@ -455,6 +455,8 @@ input {
 .singleWrapper {
     padding: 50px;
   display: flex;
+  background-color: rgb(245, 238, 233);
+  margin-top: 25px;
 }
 .singleImgContainer {
     flex: 1;
@@ -496,6 +498,9 @@ input {
     font-size: 20px;
   font-weight: 200;
 }
+.starRating2 {
+    margin-top: 10px;
+}
 .darkColor {
     font-weight: 600;
 }
@@ -525,9 +530,16 @@ input {
     margin: 0px 5px;
 }
 .btnCart {
-    padding: 10px;
-  border: 3px solid teal;
+    font-size: 20px;
+  padding: 10px;
+  border: none;
   background-color: white;
   cursor: pointer;
   font-weight: 500;
+}
+.btnCart:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border: 3px solid rgb(15, 15, 15);
+    transition: all .5s ease;
 }

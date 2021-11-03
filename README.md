@@ -1,6 +1,11 @@
 # ModernFashion Landing Page
 
-ModernFashion is a Fashion E-Commerce landing page created using HTML, CSS, and JavaScript. Elements include a main page, products page, a sinle product page, and detail animations.
+ModernFashion is a Fashion E-Commerce landing page created using HTML, CSS, and JavaScript. Elements include:
+
+### Main landing page 
+### Products page 
+### Single product age
+### Cart page
 
 Link to website: https://josetovar99.github.io/modernfashion/
 

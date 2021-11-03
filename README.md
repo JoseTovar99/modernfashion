@@ -4,7 +4,7 @@ ModernFashion is a Fashion E-Commerce landing page created using HTML, CSS, and 
 
 ### Main landing page 
 ### Products page 
-### Single product age
+### Single product page
 ### Cart page
 
 Link to website: https://josetovar99.github.io/modernfashion/

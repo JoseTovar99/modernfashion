@@ -561,6 +561,7 @@ input {
 .cartTitle {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 50px;
     padding-left: 90px;
 }
@@ -569,6 +570,7 @@ input {
 }
 .needHelp {
     padding-right: 20px;
+    font-size: 16px;
 }
 
 hr {
@@ -585,12 +587,7 @@ hr {
     margin-top: 20px;
     font-size: 30px;
 }
-.productDetailsText {
-    
-}
-.totalItem {
-   
-}
+
 .imageText {
     display: flex;
     align-items: center;
@@ -627,15 +624,17 @@ hr {
     font-weight: bolder;
 }
 
-.checkoutCard {
-   
-}
-
 .productDetails {
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-bottom: 20px ;
+    margin-top: 20px;
+    background-color: rgb(248, 246, 242);
+    margin: 30px;
+    padding-bottom: 50px;
 }
 
 .card {
@@ -680,8 +679,7 @@ hr {
     margin-top: 10px;
     gap: 10px;
 }
-.shippingFee {
-}
+
 .shippingBtn {
     display: flex;
     justify-content: center;

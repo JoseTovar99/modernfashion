@@ -636,7 +636,8 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     
     /*Might have to get rid of padding to make straight */
-    padding: 70px;
+    height: 300px;
+    padding: 20px;
     border: none;
     background: linear-gradient(#E3E3E3, #9ca2a8);
 }   
@@ -651,8 +652,8 @@ hr {
 .titleFashion {
     text-decoration: underline;
     text-underline-offset: 5px;
-    font-size: 30px;
-    margin-top: -30px;
+    font-size: 20px;
+    margin-top: -10px;
 }
 .summary {
     font-weight: bolder;
@@ -662,9 +663,16 @@ hr {
     gap: 10px;
     margin-top: 10px;
 }
+.boldSub {
+    font-weight: bolder;
+}
 .fullTotal {
     display: flex;
     margin-top: 10px;
+    gap: 10px;
+}
+.shippingFee {
+    font-weight: bolder;
 }
 .shippingBtn {
     display: flex;

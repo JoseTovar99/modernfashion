@@ -595,19 +595,22 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 15px;
 }
 .imageText img {
     display: flex;
     width:  250px;
     height: 250px;
     object-fit: cover;
-    margin-left: -25px;
+    margin-left: -35px;
     margin-top: 20px;
 }
 
 .itemDetails {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
     line-height: 50px;
     font-size: 20px;
 }
@@ -639,7 +642,7 @@ hr {
     height: 300px;
     padding: 20px;
     border: none;
-    background: linear-gradient(#E3E3E3, #9ca2a8);
+    background: linear-gradient(#E3E3E3, #d4d4d4);
 }   
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -692,6 +695,11 @@ hr {
     font-size: 20px;
     cursor: pointer;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 50px;
     border: none;
+  transition: all 1s ease;
+
+}
+.checkoutBtn:hover {
+    background-color: rgb(2, 66, 66);
 }
